@@ -84,3 +84,16 @@ input:focus {
     border-radius: 25px;
     padding: 100px;
 }
+
+
+    @media (max-width: 599px) {
+        h4 {
+            left: 17%;
+        }
+        span{
+            font-size: 8px;
+        }
+        .input_container__main {
+            margin: 5px;
+        }
+    }  
