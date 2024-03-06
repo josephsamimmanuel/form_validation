@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h4 id="header">Form Submitted Sucessfully</h4>
+    <div class="input_container__main_box">
+        <h2 style="color: #52D857;">Form Validation</h2>
+        <form action="">
+            <div class="input_container__main">
+                <div class="input_container">
+                    <input type="text" placeholder="Enter the Name" required id="name">
+                    <span class="nameerror" id="nameerror">Name must have only letters</span><br>
+                </div>
+                <div class="input_container">
+                    <input type="text" placeholder="Enter the Email" required id="email">
+                    <span class="emailerror">Please provide validemail</span><br>
+                </div>
+                <div class="input_container">
+                    <input type="text" placeholder="Enter the Phone" required id="phone">
+                    <span class="phoneerror">Please provide Phone Number</span><br>
+                </div>
+                <button id="submit">Submit</button>
+            </div>
+    </div>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
